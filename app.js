@@ -5,7 +5,7 @@ const connect = require("./schemas");
 connect();
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.use(express.json());
 app.use('/api', [goodRouter]);
